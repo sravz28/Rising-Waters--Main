@@ -1,0 +1,307 @@
+/* ===========================
+   Google Font
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+}
+
+/* ===========================
+Navbar
+=========================== */
+
+.navbar{
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+.navbar-brand{
+    font-size:1.5rem;
+    font-weight:700;
+}
+
+.nav-link{
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#ffe082 !important;
+}
+
+/* ===========================
+Hero Section
+=========================== */
+
+.hero{
+    background:linear-gradient(135deg,#007bff,#00b4d8);
+    color:white;
+    padding:80px 0;
+}
+
+.hero h1{
+    font-weight:700;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.hero-icon{
+    font-size:180px;
+    color:white;
+    opacity:.9;
+}
+
+/* ===========================
+Cards
+=========================== */
+
+.card{
+    border:none;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.card-header{
+    font-weight:600;
+    font-size:20px;
+}
+
+.info-card{
+    text-align:center;
+}
+
+.info-card h2{
+    font-size:38px;
+    font-weight:700;
+}
+
+.info-card p{
+    color:#666;
+}
+
+/* ===========================
+Form
+=========================== */
+
+.form-control{
+    border-radius:10px;
+    padding:12px;
+}
+
+.form-control:focus{
+    border-color:#007bff;
+    box-shadow:0 0 8px rgba(0,123,255,.3);
+}
+
+label{
+    font-weight:600;
+}
+
+/* ===========================
+Buttons
+=========================== */
+
+.btn{
+    border-radius:10px;
+    transition:.3s;
+}
+
+.btn-primary:hover{
+    transform:scale(1.03);
+}
+
+.btn-success:hover{
+    transform:scale(1.03);
+}
+
+/* ===========================
+Alert
+=========================== */
+
+.alert{
+    border-radius:15px;
+}
+
+/* ===========================
+Progress Bar
+=========================== */
+
+.progress{
+    border-radius:30px;
+    overflow:hidden;
+    height:28px;
+}
+
+.progress-bar{
+    font-weight:600;
+    font-size:15px;
+}
+
+/* ===========================
+Tables
+=========================== */
+
+.table{
+    vertical-align:middle;
+}
+
+.table th{
+    width:40%;
+}
+
+/* ===========================
+List Group
+=========================== */
+
+.list-group-item{
+    border:none;
+    padding:14px;
+    font-size:16px;
+}
+
+/* ===========================
+Footer
+=========================== */
+
+.footer{
+    margin-top:70px;
+    background:#212529;
+    color:white;
+    padding:35px 0;
+}
+
+.footer h4{
+    font-weight:700;
+}
+
+.footer p{
+    margin-bottom:6px;
+}
+
+/* ===========================
+Icons
+=========================== */
+
+.display-1{
+    font-size:90px;
+}
+
+/* ===========================
+Animations
+=========================== */
+
+.card,
+.btn,
+.alert{
+    animation:fadeIn .7s ease;
+}
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+/* ===========================
+Responsive
+=========================== */
+
+@media(max-width:768px){
+
+.hero{
+
+    text-align:center;
+    padding:60px 20px;
+
+}
+
+.hero-icon{
+
+    font-size:120px;
+    margin-top:30px;
+
+}
+
+.info-card{
+
+    margin-bottom:20px;
+
+}
+
+.display-4{
+
+    font-size:2rem;
+
+}
+
+.btn-lg{
+
+    width:100%;
+    margin-top:10px;
+
+}
+
+.card{
+
+    margin-bottom:20px;
+
+}
+
+}
+
+/* ===========================
+Badges
+=========================== */
+
+.badge{
+    border-radius:10px;
+}
+
+/* ===========================
+Section Spacing
+=========================== */
+
+section{
+    margin-bottom:60px;
+}
+
+/* ===========================
+Scrollbar
+=========================== */
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#007bff;
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#eee;
+}
